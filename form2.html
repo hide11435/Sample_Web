@@ -1,98 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>入力フォーム2</title>
 
-    <link rel="stylesheet" href="css/form2.css"> 
+    <link rel="stylesheet" href="css/form2.css">
 
     <style>
-      
-      
-  
+
+
+
     </style>
 
 </head>
- <body>
+
+<body>
     <h3>アンケート</h3>
     <div class="box_a">
         <p>
-         AxiZの研修をご利用いただき、誠にありがとうございます。<br>
-         以下の内容の記入及び送信をして頂けると幸いです。
+            AxiZの研修をご利用いただき、誠にありがとうございます。<br>
+            以下の内容の記入及び送信をして頂けると幸いです。
         </p>
 
-            <form action="result.html">
-                <div class="form-group">
-                    <p>会社名<label class="required">必須</label></p>
-                    <input type="text"  name="name">
-                </div>
-    
-                <div class="form-group">
-                    <p>名前<label class="required">必須</label></p>
-                    <input type="text"  name="company">
-                </div>
+        <form action="result.html">
+            <div class="form-group">
+                <p>会社名<label class="required">必須</label></p>
+                <input type="text" name="name">
+            </div>
 
-                <div class="form-group">
-                    <p>メールアドレス</p>
-                    <input type="text"  name="mail">
-                </div>
+            <div class="form-group">
+                <p>名前<label class="required">必須</label></p>
+                <input type="text" name="company">
+            </div>
 
-                <div class="form-group">
-                    <p>年齢</p>
-                    <input type="text" name="age">
-              
-                </div>
+            <div class="form-group">
+                <p>メールアドレス</p>
+                <input type="text" name="mail">
+            </div>
 
-                <div class="form-group">
-                    <p>受講コース</p>
-                    <label><input type="radio"  name="male" checked>Java</label>
-                    <label><input type="radio"  name="female">インフラ</label>
-                </div> 
+            <div class="form-group">
+                <p>年齢</p>
+                <input type="text" name="age">
 
-                <div class="form-group">
-                    <p>会場名</p>
-                    <input type="text" name="spot">
-              
-                </div>
-     
-                <div class="form-group">
-                    <p>詳しく学びたい内容（複数回答可）</p>
-                    <label>
-                      <input type="checkbox" name="resipe" value="wasyoku" >ビジネスマナー
-                    </label>
-                    <label>
-                      <input type="checkbox" name="resipe" value="tyuuka">HTML/CSS
-                    </label>
-                    <label>
-                        <input type="checkbox" name="resipe" value="yosyoku">JavaScript
-                      </label>
-                      <label>
-                        <input type="checkbox" name="resipe" value="itarian">Java
-                      </label>
-                      <label>
-                        <input type="checkbox" name="resipe" value="sweet">データベース
-                      </label>
-                      <label>
-                        <input type="checkbox" name="resipe" value="hoka">Linux
-                      </label>
-                  </div>
-    
-                  <div class="form-group">
-                    <p>ご意見</p>
-                    <textarea name="free" rows="2" cols="20" placeholder="自由にご記入ください"></textarea>
-                </div>
-    
-                <div class="button">            
-                    <button type="submit">送信する</button>
-                    
-                </div>
-       
-            </form>
-          
+            </div>
 
-        </div>
+            <div class="form-group">
+                <p>受講コース</p>
+                <label><input type="radio" name="male" checked>Java</label>
+                <label><input type="radio" name="female">インフラ</label>
+            </div>
 
-    </body>
-    </html>
+            <div class="form-group">
+                <p>会場名</p>
+                <input type="text" name="spot">
 
- 
+            </div>
+
+            <div class="form-group">
+                <p>詳しく学びたい内容（複数回答可）</p>
+                <label>
+                    <input type="checkbox" name="resipe" value="wasyoku">ビジネスマナー
+                </label>
+                <label>
+                    <input type="checkbox" name="resipe" value="tyuuka">HTML/CSS
+                </label>
+                <label>
+                    <input type="checkbox" name="resipe" value="yosyoku">JavaScript
+                </label>
+                <label>
+                    <input type="checkbox" name="resipe" value="itarian">Java
+                </label>
+                <label>
+                    <input type="checkbox" name="resipe" value="sweet">データベース
+                </label>
+                <label>
+                    <input type="checkbox" name="resipe" value="hoka">Linux
+                </label>
+            </div>
+
+            <div class="form-group">
+                <p>ご意見</p>
+                <textarea name="free" rows="2" cols="20" placeholder="自由にご記入ください"></textarea>
+            </div>
+
+            <div class="button">
+                <button type="submit">送信する</button>
+
+            </div>
+
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>
