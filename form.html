@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>入力フォーム1</title>
+
+    <link rel="stylesheet" href="css/resipe.css"> 
+
+    <style>
+      
+      
+      body {
+        background-image: url(./images/bg_Argyle.jpg);
+        /* background-color: red; */
+        text-align: center;
+      }
+  
+    </style>
+
+</head>
+
+<body>
+    <h1>質問・感想フォーム</h1>
+
+    <div class="box_a">
+              
+        <form action="result.html">
+            <div class="form-group">
+                <p>氏名</p>
+                <input type="text"  name="name">
+            </div>
+
+            <div class="form-group">
+                <p>性別</p>
+                <label><input type="radio"  name="male" checked>男</label>
+                <label><input type="radio"  name="female">女</label>
+            </div> 
+            
+            <div class="form-group">
+                <p>年齢</p>
+        <select id="job" name="job">
+          <option value="0" selected>10代</option>
+          <option value="1" >20代</option>
+          <option value="2">30代</option>
+          <option value="3" >40代</option>
+          <option value="4">50代</option>
+          <option value="5">60代</option>
+        </select>
+            </div>
+
+            <div class="form-group">
+                <p>今後見てみたいレシピ</p>
+                <label>
+                  <input type="checkbox" name="resipe" value="wasyoku" >和食
+                </label>
+                <label>
+                  <input type="checkbox" name="resipe" value="tyuuka">中華
+                </label>
+                <label>
+                    <input type="checkbox" name="resipe" value="yosyoku">洋食
+                  </label>
+                  <label>
+                    <input type="checkbox" name="resipe" value="itarian">イタリアン
+                  </label>
+                  <label>
+                    <input type="checkbox" name="resipe" value="sweet">スイーツ
+                  </label>
+                  <label>
+                    <input type="checkbox" name="resipe" value="hoka">その他
+                  </label>
+              </div>
+
+              <div class="form-group">
+                <p>自由コメント欄</p>
+                <textarea name="free" rows="2" cols="20" placeholder="自由に意見を記述してください"></textarea>
+            </div>
+
+            <div class="button">            
+                <button type="submit">送信</button>
+                <button type="button">取り消し</button>
+
+            </div>
+
+            <!-- <div class="box_a">
+              
+            </div> -->
+            
+
+
+              
+    
+
+            
+
+
+
+
+
+
+
+
+
+
+
+        </form>
+    </div>
+    
+</body>
+</html>

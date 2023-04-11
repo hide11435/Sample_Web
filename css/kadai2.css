@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(../images/water.jpg);
+}
+
+h1 {
+    text-align: center;
+    background-color: #e2f10c;
+    /* 背景色をつける */
+
+    /* 内側の余白を指定 */
+}
+
+h2 {
+    text-align: center;
+    color: red;
+
+}
+
+h3 {
+    text-align: center;
+    position: relative;
+    left: -13px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box img {
+    display: block;
+    
+    max-width: 36%;
+    height: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.box_2 {
+    width: 600px;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #1ce960, #ece5e5);
+
+}
+
+.box_2 p {
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.box_3 {
+    width: 455px;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-left: 115px;
+    margin-top: 60px;
+    background-image: linear-gradient(to bottom, #16e727, #d3c4c4);
+
+
+}
+
+.box_4 {
+    width: 1082px;
+    height: 700px;
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    /* margin-right: 250px; */
+    margin-left: 115px;
+    margin-top: 60px;
+    background-image: linear-gradient(to bottom, #047209, #f5e8e8);
+
+}
+
+.box_4 li {
+    
+    font-size: 1.5em;
+    
+}
+
+ul {
+    list-style-position: inside;
+    padding-right: 30px;
+  }
+
+li {
+    display: list-item;
+}
+  
+
+  .image {
+    float: left;
+    margin-left: 200px;
+    position: absolute;
+    top: 430px;
+    right: 250px;
+    max-width: 90%;
+    height: 380px;
+  }

@@ -1,0 +1,31 @@
+label {
+  display: inline-block; /* インラインブロック要素にする */
+  border: 1px solid #a39c9c; /* 枠線のスタイルを設定 */
+  padding: 5px; /* 枠線とラベルの間の余白を設定 */
+  margin: 0; /* マージンをリセット */
+  border-radius: 10%;
+  accent-color: #b1a8a8;
+
+}
+
+ textarea{
+  width: 300px;
+  height: 50px;
+}
+
+.button{
+  padding: 5px;
+  margin-right: 5px;
+ 
+}
+
+.box_a {
+  background-color: white;
+  width: 800px;
+  height: 550px;
+  display: inline-block;
+  border: 1px solid rgb(228, 11, 228);
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* 影をつける */
+
+}
